@@ -22,20 +22,7 @@ To simulate an attacker's reconnaissance phase using **passive information gathe
 - 🎭 **Website Social Engineering Audit**
 - 👤 **Social Media Reconnaissance** (LinkedIn, GitHub, etc.)
 - 🌑 **Dark Web Filtering** (IntelX leak validation)
-
----
-
-## 🧾 Key Findings
-
-| Area                         | Result       | Impact Summary                                                             |
-|------------------------------|--------------|-----------------------------------------------------------------------------|
-| SSL/TLS Encryption           | ❌ Not Enabled | Site operates on HTTP only — data is vulnerable to MITM attacks.           |
-| Admin/Backup URLs            | ⚠️ Indexed    | `/admin` and other internal paths found via dorking and link crawling.     |
-| Social Engineering Vectors   | ⚠️ Partial    | Public contact forms and email addresses discovered.                       |
-| DNS / Mail Security          | ❌ Weak        | No SPF, DKIM, or DMARC records configured.                                 |
-| Dark Web Leak                | ❌ Confirmed   | Database file `tendermines.com.sql` found leaked on IntelX (see below).    |
-
----
+  
 
 ## 🕳️ Dark Web Leak Reference
 
@@ -46,7 +33,7 @@ To simulate an attacker's reconnaissance phase using **passive information gathe
 
 ## 📁 Included Files
 
-- `reconnaissance_sect.pdf` – Full PDF report with:
+- `Week_1/reconnaissance_sect.pdf` – Full PDF report with:
   - Screenshots of tools
   - Threat modeling table
   - Risk assessment matrix
