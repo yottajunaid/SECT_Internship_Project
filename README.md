@@ -79,7 +79,7 @@ This project demonstrates the importance of **passive reconnaissance** in unders
 
 ## ✒️ Author
 
-**Junaid**  
+**Junaid Quadri**  
 `SECT Cybersecurity Intern – July 2025`
 
 ---
