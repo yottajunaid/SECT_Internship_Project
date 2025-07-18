@@ -1,12 +1,9 @@
-# 🛡️ SECT Internship – Week 1: Passive Reconnaissance & Threat Modeling
-
-This repository contains my **Week 1 submission** for the **SECT Internship Program**, where the focus was on performing **passive reconnaissance** on a real-world target and building a **threat model** based on observed risks.
-
----
+# 🛡️ SECT Internship
+#  Week 1: Passive Reconnaissance & Threat Modeling
 
 ## 🎯 Project Objective
 
-To simulate an attacker's reconnaissance phase using **passive information gathering techniques** — without interacting directly with the target — and evaluate what assets are exposed to the public internet.
+To simulate an attacker's reconnaissance phase using **passive information gathering techniques** — without interacting directly with the target and evaluate what assets are exposed to the public internet.
 
 **Target Website**: [http://tendermines.com](http://tendermines.com)
 
@@ -41,9 +38,42 @@ To simulate an attacker's reconnaissance phase using **passive information gathe
 
 ---
 
-## 🔐 Conclusion
-
 This project demonstrates the importance of **passive reconnaissance** in understanding an organization’s public exposure. Through ethical OSINT and threat modeling, we can simulate how attackers gather intelligence and propose defensive actions before real exploitation happens.
+
+---
+# Week 2: Web Vulnerability Analysis
+
+**Target**: http://tendermines.com
+
+### 🧪 Key Activities:
+- **XSS Testing**: Injected common payloads in URL parameters, search bar, and contact form. 
+- **SQL Injection (Error-Based)**: Entered payloads like `' OR 'x'='x` in login form.
+- **SSL/TLS Verification**: Site served over HTTP without HTTPS, HSTS, or secure cookies.
+- **Email Security**: Missing SPF, DKIM, and DMARC DNS records — vulnerable to email spoofing.
+- **Info Disclosure**: SQL error outputs revealed internal server paths and database structure.
+- **Admin/Login Page Indexing**: `/login` page publicly accessible and potentially indexed; lacked protections.
+- **Security Headers**: `X-Frame-Options` present, but CSP, HSTS, X-Content-Type-Options, Referrer-Policy, and Permissions-Policy were missing.
+
+### ✅ Risk Assessment – Summary Table:
+| # | Issue                          | Risk Level |
+|---|-------------------------------|------------|
+| 1 | SQL Injection (Error-Based)   | High       |
+| 2 | Leaked Sensitive Info         | High       |
+| 3 | Missing HTTPS/TLS             | High       |
+| 4 | Missing Email Auth (SPF/DKIM/DMARC) | High |
+| 5 | Admin Page Indexed            | Medium     |
+| 6 | Missing Security Headers      | Medium     |
+| 7 | No XSS Found                  | N/A        |
+
+---
+
+## 📁 Included Files
+
+- `Week_2/vulnerabilityreport_sect` – Full PDF report with:
+  - Screenshots of tools
+  - Threat modeling table
+  - Risk assessment matrix
+  - Recommendations
 
 ---
 
