@@ -1,4 +1,4 @@
-# 🛡️ SECT Internship
+# 🛡️ SECT Internship 🛡️
 
 ---
 
