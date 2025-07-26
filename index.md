@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/styles.css">
+
 # 🛡️ SECT Internship 🛡️
 Thanks to [**Civora Nexus**](https://civoranexus.com/)
 
