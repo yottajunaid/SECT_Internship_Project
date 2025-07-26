@@ -1,5 +1,5 @@
 # 🛡️ SECT Internship 🛡️
-Thank to [**Civora Nexus**](https://civoranexus.com/) 
+Thanks to [**Civora Nexus**](https://civoranexus.com/) 
 ---
 
 ### 📚 Project Timeline
