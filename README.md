@@ -72,15 +72,16 @@ This project demonstrates the importance of **passive reconnaissance** in unders
 - **Security Headers**: `X-Frame-Options` present, but CSP, HSTS, X-Content-Type-Options, Referrer-Policy, and Permissions-Policy were missing.
 
 ### ✅ Risk Assessment – Summary Table:
-| # | Issue                          | Risk Level |
-|---|-------------------------------|------------|
-| 1 | SQL Injection (Error-Based)   | High       |
-| 2 | Leaked Sensitive Info         | High       |
-| 3 | Missing HTTPS/TLS             | High       |
-| 4 | Missing Email Auth (SPF/DKIM/DMARC) | High |
-| 5 | Admin Page Indexed            | Medium     |
-| 6 | Missing Security Headers      | Medium     |
-| 7 | No XSS Found                  | N/A        |
+
+| #  | Issue                                 | Risk Level |
+|----|----------------------------------------|------------|
+| 1  | SQL Injection (Error-Based)            | 🔴 High     |
+| 2  | Leaked Sensitive Info                  | 🔴 High     |
+| 3  | Missing HTTPS/TLS                      | 🔴 High     |
+| 4  | Missing Email Auth (SPF/DKIM/DMARC)    | 🔴 High     |
+| 5  | Admin Page Indexed                     | 🟠 Medium   |
+| 6  | Missing Security Headers               | 🟠 Medium   |
+| 7  | No XSS Found                           | ⚪ N/A       |
 
 ---
 
