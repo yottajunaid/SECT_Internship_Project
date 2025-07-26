@@ -76,7 +76,35 @@ This project demonstrates the importance of **passive reconnaissance** in unders
   - Recommendations
 
 ---
+# Week 3: A Real-World Breach Analysis + OWASP Mapping Report
 
+**Target**: http://tendermines.com
+
+🔍 Key Activities
+- **IntelX Dark Web Intelligence** – Discovered tendermines.com.sql database leak, first indexed Nov 1, 2023.
+- **Incident Timeline Construction** – Traced key events from reconnaissance, vulnerability findings to breach disclosure.
+- **Technical Root Cause Analysis** – Identified critical flaws: SQL Injection, missing HTTPS, exposed admin endpoints, verbose error disclosures, misconfigured DNS/email policies.
+- **OWASP & CIA Impact Mapping** – Mapped vulnerabilities to OWASP Top 10 categories and assessed impact across Confidentiality, Integrity, and Availability dimensions.
+- **Threat Modeling (STRIDE)** – Detailed threat vectors and attack flows including SQLi, spoofing, brute‑force, and data exfiltration.
+- **Remediation Roadmap** – Developed a prioritized strategy matrix covering secure coding, infrastructure hardening, email protections, monitoring, and policy enforcement.
+- **Visual Architecture & Flow Diagrams** – Included threat mapping, deployment pipeline, security architecture, and stakeholder impact visuals.
+
+---
+
+## 📁 Included Files
+
+- `Week_3/breach_analysis_and_OWASP_mapping_sect.pdf` – Full PDF report with:
+  - Screenshots of tools
+  - Technical Root Cause Analysis
+  - Threat modeling table
+  - Affected Stakeholders
+  - CIA Triad Impact Mapping
+  - OWASP Top 10 Mapping
+  - Incident Timeline
+  - Risk assessment matrix
+  - Recommendations
+
+---
 ## ✒️ Author
 
 **Junaid Quadri**  
