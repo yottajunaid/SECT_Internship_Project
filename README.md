@@ -1,4 +1,21 @@
 # 🛡️ SECT Internship
+
+---
+
+### 📚 Project Timeline
+
+| Week | Title                         | Download Report |
+|------|-------------------------------|-----------------|
+| ✅ Week 1 | 🔍 Reconnaissance & Surface Mapping     | [View PDF 🔗](https://github.com/yottajunaid/SECT_Internship_Project/blob/main/Week_1/reconnaissance_sect.pdf) |
+| ✅ Week 2 | 🛡️ Vulnerability Assessment & Proof of Concept | [View PDF 🔗](https://github.com/yottajunaid/SECT_Internship_Project/blob/main/Week_2/vulnerabilityreport_sect.pdf) |
+| ✅ Week 3 | 💥 Data Breach Analysis & OWASP Mapping     | [View PDF 🔗](https://github.com/yottajunaid/SECT_Internship_Project/blob/main/Week_3/breach_analysis_and_OWASP_mapping_sect.pdf) |
+
+---
+
+📁 Access the full project site: [**yottajunaid.github.io/SECT_Internship_Project**](https://yottajunaid.github.io/SECT_Internship_Project/)
+
+---
+
 #  Week 1: Passive Reconnaissance & Threat Modeling
 
 ## 🎯 Project Objective
